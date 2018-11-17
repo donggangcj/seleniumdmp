@@ -56,3 +56,4 @@ clients/*/dist
 
 
 venv/
+*.txt
