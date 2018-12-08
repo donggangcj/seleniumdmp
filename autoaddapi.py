@@ -40,7 +40,6 @@ def autoaddjob(path='test.txt', sleep_time=2):
             time.sleep(sleep_time)
             browser.find_elements_by_partial_link_text('API')[1].click()
 
-            # api1 = ('testtest', '/cosmo/test/test')
 
             # WebDriverWait(browser, 20).until(
             #     expected_conditions.presence_of_element_located((By.CSS_SELECTOR, 'button.dao-btn'))
